@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"work5\startup_stm32f103xb.o"
+"work5\main.o"
+"work5\gpio.o"
+"work5\usart.o"
+"work5\stm32f1xx_it.o"
+"work5\stm32f1xx_hal_msp.o"
+"work5\stm32f1xx_hal_gpio_ex.o"
+"work5\stm32f1xx_hal_tim.o"
+"work5\stm32f1xx_hal_tim_ex.o"
+"work5\stm32f1xx_hal_uart.o"
+"work5\stm32f1xx_hal.o"
+"work5\stm32f1xx_hal_rcc.o"
+"work5\stm32f1xx_hal_rcc_ex.o"
+"work5\stm32f1xx_hal_gpio.o"
+"work5\stm32f1xx_hal_dma.o"
+"work5\stm32f1xx_hal_cortex.o"
+"work5\stm32f1xx_hal_pwr.o"
+"work5\stm32f1xx_hal_flash.o"
+"work5\stm32f1xx_hal_flash_ex.o"
+"work5\stm32f1xx_hal_exti.o"
+"work5\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "Work5\Work5.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Work5.map" -o Work5\Work5.axf

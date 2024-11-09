@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"work2\startup_stm32f103xb.o"
+"work2\main.o"
+"work2\gpio.o"
+"work2\usart.o"
+"work2\stm32f1xx_it.o"
+"work2\stm32f1xx_hal_msp.o"
+"work2\stm32f1xx_hal_gpio_ex.o"
+"work2\stm32f1xx_hal_tim.o"
+"work2\stm32f1xx_hal_tim_ex.o"
+"work2\stm32f1xx_hal_uart.o"
+"work2\stm32f1xx_hal.o"
+"work2\stm32f1xx_hal_rcc.o"
+"work2\stm32f1xx_hal_rcc_ex.o"
+"work2\stm32f1xx_hal_gpio.o"
+"work2\stm32f1xx_hal_dma.o"
+"work2\stm32f1xx_hal_cortex.o"
+"work2\stm32f1xx_hal_pwr.o"
+"work2\stm32f1xx_hal_flash.o"
+"work2\stm32f1xx_hal_flash_ex.o"
+"work2\stm32f1xx_hal_exti.o"
+"work2\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "Work2\Work2.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Work2.map" -o Work2\Work2.axf
